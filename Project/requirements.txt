@@ -86,7 +86,6 @@ decorator==4.4.2
 deepdiff==6.7.1
 deepface==0.0.93
 defusedxml==0.7.1
-Deprecated
 detectron2
 dill==0.3.9
 distro==1.9.0
@@ -182,7 +181,7 @@ importlib_resources==6.4.5
 imutils==0.5.4
 incremental==24.7.2
 inflection==0.5.1
-iopath @ git+https://github.com/facebookresearch/iopath@8f359cf63bec091969ad8f30fa14c17d3218c347
+iopath
 ipykernel==6.29.5
 ipython==8.29.0
 ipywidgets==8.1.5
@@ -500,7 +499,7 @@ torchvision==0.20.1
 tornado==6.4.1
 tqdm==4.67.0
 traitlets==5.14.3
-transformers @ git+https://github.com/huggingface/transformers.git@3bf6dd8aa141ff6bebd579649e9d0ba8bf5d03db
+transformers
 trio==0.27.0
 trio-websocket==0.11.1
 Twisted==24.10.0
