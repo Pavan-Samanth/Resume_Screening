@@ -14,7 +14,6 @@ import nltk
 import re
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 from sklearn.metrics.pairwise import cosine_similarity
-import heapq
 from operator import itemgetter
 import pandas as pd
 import numpy as np
