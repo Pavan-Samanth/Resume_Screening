@@ -11,3 +11,4 @@ docx2txt
 nltk
 pandas==2.2.3
 numpy==1.24.2
+python3-distutils
