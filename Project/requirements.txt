@@ -9,6 +9,5 @@ tqdm
 transformers
 docx2txt
 nltk
-codecs
 pandas
 numpy
