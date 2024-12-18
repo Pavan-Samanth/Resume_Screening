@@ -1,13 +1,8 @@
 import streamlit as st
-import streamlit_authenticator as stauth
-from streamlit_option_menu import option_menu
 import glob
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.neighbors import NearestNeighbors
+from sklearn.feature_extraction.text import TfidfVectorizer
 import textract
 from PyPDF2 import PdfFileReader
-import subprocess
-from pdfminer.pdfparser import PDFSyntaxError
 import tqdm
 import transformers
 from transformers import pipeline
@@ -16,11 +11,7 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import docx2txt
 import nltk
-import re,string,unicodedata
-from nltk import word_tokenize, sent_tokenize
-from nltk.corpus import stopwords
-from nltk.stem import LancasterStemmer, WordNetLemmatizer
-import re,codecs
+import re
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 from sklearn.metrics.pairwise import cosine_similarity
 import heapq
