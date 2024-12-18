@@ -9,5 +9,5 @@ tqdm
 transformers
 docx2txt
 nltk
-pandas
-numpy
+pandas==2.2.3
+numpy==1.24.2
