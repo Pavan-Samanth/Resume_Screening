@@ -1,7 +1,4 @@
 import streamlit as st
-import streamlit_authenticator as stauth
-from streamlit_option_menu import option_menu
-import streamlit.components.v1 as components
 
 st.set_page_config(
     page_title="Resume Screening",
